@@ -63,7 +63,9 @@ color:#ff8000;
     padding: 0.5rem;
     background: none;
     border: none;
+
     color: #ffffff;
+
     cursor: pointer;
 }
 .sidebar {
@@ -71,6 +73,7 @@ color:#ff8000;
     transform: translateX(-30rem);
     width: 30rem;
     background-color: #f0f0f0;
+
     height:100%;
 }
 .sidebar.open {
@@ -88,18 +91,22 @@ color:#ff8000;
     cursor: pointer;
     position: absolute;
     right: 0.5rem;
+
     left: 1.5rem;
 }
 /* Product Screen*/
+
 .products {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .products li {
     list-style-type: none;
     padding: 0; 
+
     flex: 0 1 34rem;
     margin: 1rem;
     height: 50rem;
@@ -122,6 +129,8 @@ color:#ff8000;
 .product-price {
     font-size: 2rem;
     font-weight: bold;
+    max-height: 34rem;
+
 }
 .product-image {
     max-width: 34rem;
